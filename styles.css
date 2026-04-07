@@ -48,13 +48,13 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modalMain.open {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal {
@@ -116,4 +116,44 @@
 .text-black {
     color: black;
     clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.japan-flag {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.japan-flag::before {
+    content: '';
+    width: 120px;
+    height: 120px;
+    background-color: #BC002D;
+    border-radius: 50%;
+}
+
+.windows-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+}
+.windows-logo .span1 {
+    background-color: red;
+}
+.windows-logo .span2 {
+    background-color: green;
+}
+.windows-logo .span3 {
+    background-color: blue;
+}
+.windows-logo .span4 {
+    background-color: yellow;
 }
