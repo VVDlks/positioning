@@ -57,10 +57,10 @@
 
 .text-white{
     color: white;
-    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+    clip-path: polygon(0 0, 0% 0, 0% 100%, 0 100%);
 }
 
 .text-black{
     color: black;
-    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
 }
